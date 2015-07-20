@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.description   = 'Includes wkthmltopdf binaires for MacOSX and Ubuntu 14(32bit & 64bit)'
   spec.homepage      = 'https://github.com/hannahbot/wkhtmltopdf-0.9.9-binary'
 
-  s.required_ruby_version = '>= 1.8.7'
-  s.required_rubygems_version = ">= 1.3.6"
+  spec.required_ruby_version = '>= 1.8.7'
+  spec.required_rubygems_version = ">= 1.3.6"
 
   spec.bindir        = "bin"
   spec.executables   = %w(wkhtmltopdf)
